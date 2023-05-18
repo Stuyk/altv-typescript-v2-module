@@ -1,32 +1,24 @@
-<p align="center" style="font-size: 26px">
-	<b>Typescript Boilerplate for alt:V - v5.1.0</b>
-</p>
-<p align="center">
-	<img src="https://thumbs.gfycat.com/FabulousFlawlessLamb-size_restricted.gif" width="350" title="hover text">
-</p>
 
-<p align="center">
-	<sup>Super Fast Compilation</sup>
-</p>
+# alt:V TypeScript with V2 Module
 
-[💡 Need a Roleplay Script? Try Athena!](https://athenaframework.com/)
+This uses the new V2 module for server development.
 
-# Variants
+Current restrictions:
 
-- [TypeScript Boilerplate with Vue](https://github.com/Stuyk/altv-typescript-vue)
-- [TypeScript Boilerplate with React](https://github.com/Stuyk/altv-typescript-react)
+* Server must be on the `dev` branch.
+* Client must be on the `dev` branch.
 
-# Features
+Latest files are always obtained from here:
 
-A simple Typescript Boilerplate that builds incredibly fast using the [SWC Library](https://github.com/swc-project/swc).
+* [https://github.com/altmp/altv-js-module-v2/releases](https://github.com/altmp/altv-js-module-v2/releases)
 
-- Auto Refresh Server
-- Auto Compile TypeScript Files
-- Auto Download Resources
-- Single Resource Code Support
-- Fastest Auto Reconnect Time on Recompile
+Binary Destinations:
 
-# Installation
+* libnodev2.dll must go in the root directory of the project
+* js-module-v2.dll must go in the `modules` directory
+* js-module-v2.pdb must go in the `modules` directory
+
+## Installation
 
 * [Install NodeJS 18+](https://nodejs.org/en/download/current/)
 * [Install GIT](https://git-scm.com/downloads)
@@ -55,6 +47,9 @@ Use the command below in any terminal, command prompt, etc. This will download a
 ```sh
 npm run update
 ```
+
+_This will automatically download `dev` binaries._
+
 
 ## Start Production Server (Windows)
 
