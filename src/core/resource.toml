@@ -1,0 +1,5 @@
+type = 'jsv2'
+main = 'server/startup.js'
+client-files = [ 'client/*', 'shared/*' ]
+client-main = 'client/startup.js'
+deps = []
